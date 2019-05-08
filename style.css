@@ -109,7 +109,7 @@ input, select {
 body {
     background-color: white;
     background-image: url('imgs/GreenHouseLines.jpg');
-    background-size: cover;
+    background-size: fill;
     background-repeat: no-repeat;
 }
 .text1, .text2 {
