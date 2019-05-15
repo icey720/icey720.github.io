@@ -105,7 +105,7 @@ input, select {
 
 
 
-/*MY CODE*/
+/*MY CODE --------------------------------------------------------------------------------------------------*/
 body {
     background-color: white;
    
@@ -130,14 +130,14 @@ body {
 
 .barcode {
     font-family: 'Libre Barcode 39', cursive;
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 30px;
     margin-bottom: 20px;
 }
 
 .title { 
     font-family: 'Orbitron', sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     padding: 0px 0 20px 0;
     font-weight: 900;
     letter-spacing: 10px;
@@ -155,49 +155,6 @@ body {
     
 }
 
-.link1, .link2, .link3 {
-    font-size: 35px;
-    padding: 6px 10px;
-    font-weight: 700;
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    text-decoration: none;
-    color: black;
-    display: inline;
-    margin: 0 10px;
-}
-
-.links a {
-  position: relative;
-  color: #000;
-  text-decoration: none;
-}
-
-.links a:hover {
-    color: #000;
-}
-
-.links a:before {
-    content: "";
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  bottom: 3px;
-  left: 0;
-  background-color: #000;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-.links a:hover:before {
- visibility: visible;
-  -webkit-transform: scaleX(.85);
-  transform: scaleX(.85);
-}
-
 @keyframes text {
     10% {
         color: #7eaed8;
@@ -207,13 +164,32 @@ body {
     35% {
         color: #7eaed8;
     }
-    
-    
 }
+
+.link1, .link2, .link3 {
+    font-size: 30px;
+    padding: 6px 10px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 0 10px;
+}
+
+.links a {
+  position: relative;
+  color: #000;
+  text-decoration: underline;
+}
+
+
+
 
 .noanimation-title {
     font-family: 'Orbitron', sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     padding: 0px 0 20px 0;
     font-weight: 900;
     letter-spacing: 10px;
@@ -241,7 +217,6 @@ body {
 }
 
 .contact-twitterlink, .contact-emaillink {
-    
     color: red; 
 }
 
@@ -249,8 +224,7 @@ body {
     margin-top: 20px;
     font-family: 'Roboto Mono', monospace;
     font-weight: 500;
-    width: 30%;
-    transform: translate(116%, 0%);
+    
 }
 
 .about-specific-description {
@@ -292,7 +266,66 @@ body {
 }
 
 
+@media only screen and (min-width: 1025px) {
+    .title { 
+        
+        font-size: 60px;
+       
+    }
 
+    .barcode {
+        
+        font-size: 35px;
+        
+    }
+    
+    .link1, .link2, .link3 {
+        font-size: 35px;
+        display: inline;
+        
+    }
+    
+    .links a {
+        position: relative;
+        color: #000;
+        text-decoration: none;
+    }
+
+    .links a:hover {
+        color: #000;
+    }
+
+    .links a:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        bottom: 3px;
+        left: 0;
+        background-color: #000;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+    }
+
+    .links a:hover:before {
+        visibility: visible;
+        -webkit-transform: scaleX(.85);
+        transform: scaleX(.85);
+    }
+    
+    .noanimation-title {
+        font-size: 60px;
+    }
+    
+    .about-description {
+        width: 30%;
+        transform: translate(116%, 0%);
+    }
+
+}
 
 
 
