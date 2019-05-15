@@ -257,9 +257,15 @@ body {
     color: red;
 }
 
-.about-socialmedia img {
-    height: 50px;
-    width: 50px;
+.about-description-links {
+    margin-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    
+}
+
+.about-description-links a {
+    color: red; 
 }
 
 .work-description {
