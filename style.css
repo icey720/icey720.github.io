@@ -212,7 +212,7 @@ body {
 }
 
 .noanimation-title {
-     font-family: 'Orbitron', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-size: 60px;
     padding: 0px 0 20px 0;
     font-weight: 900;
@@ -232,6 +232,61 @@ body {
 
 .contact-description {
     margin-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
 }
+
+.contact-decsription a {
+    text-decoration: none;
+}
+
+.contact-twitterlink, .contact-emaillink {
+    
+    color: red; 
+}
+
+.about-description {
+    margin-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    width: 30%;
+    transform: translate(116%, 0%);
+}
+
+.about-specific-description {
+    color: red;
+}
+
+.about-socialmedia img {
+    height: 50px;
+    width: 50px;
+}
+
+.work-description {
+    margin-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+.work-links {
+    margin-top: 10px;
+    
+}
+
+.work-links a {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    font-size: 18px;
+    color: red;
+    text-decoration: none;
+    padding: 6px 10px;
+    position:relative;
+}
+
+
+
+
 
 
