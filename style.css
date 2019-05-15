@@ -141,7 +141,6 @@ body {
     padding: 0px 0 20px 0;
     font-weight: 900;
     letter-spacing: 10px;
-   
     position: relative;
     animation: text 1.5s 1;
     color: black;
@@ -212,5 +211,27 @@ body {
     
 }
 
+.noanimation-title {
+     font-family: 'Orbitron', sans-serif;
+    font-size: 60px;
+    padding: 0px 0 20px 0;
+    font-weight: 900;
+    letter-spacing: 10px;
+    position: relative;
+    color: black;
+    color: #000;
+    text-shadow:
+    -2px -2px 0 #fff,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000; 
+    text-transform: uppercase;
+    display: block;
+}
+
+
+.contact-description {
+    margin-top: 20px;
+}
 
 
