@@ -166,7 +166,7 @@ body {
     }
 }
 
-.link1, .link2, .link3 {
+.link1, .link2, .link3, .link4 {
     font-size: 30px;
     padding: 6px 10px;
     font-weight: 700;
@@ -265,6 +265,12 @@ body {
     position:relative;
 }
 
+.shopify-code {
+    margin: auto;
+    width: 15%;
+    
+}
+
 
 @media only screen and (min-width: 1025px) {
     .title { 
@@ -279,7 +285,7 @@ body {
         
     }
     
-    .link1, .link2, .link3 {
+    .link1, .link2, .link3, .link4 {
         font-size: 35px;
         display: inline;
         
