@@ -271,6 +271,27 @@ body {
     margin-top: 20px;
 }
 
+.secret-lair {
+    margin-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    font-size: 18px;
+    color: #C0C0C0;
+}
+
+.secret-lair a {
+    color: white;
+}
+
+.lair-container {
+    text-align: center;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%
+}
+
 
 @media only screen and (min-width: 1025px) {
     .title { 
